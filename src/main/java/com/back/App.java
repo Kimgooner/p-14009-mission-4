@@ -59,9 +59,9 @@ public class App {
     }
 
     void actionWrite(){
-        System.out.print("명언: ");
+        System.out.print("명언 : ");
         String content = scanner.nextLine();
-        System.out.print("작가: ");
+        System.out.print("작가 : ");
         String author = scanner.nextLine();
 
         WiseSaying wiseSaying = wiseSayingController.write(content, author);
